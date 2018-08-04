@@ -296,6 +296,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com",
+  owner: 'OnlyMathAndYou',
+  repo: 'OnlyMathAndYou.github.io',
+  oauth: {
+    client_id: '00075ba5fb683fe691b3',
+    client_secret: 'e7b23e2e431abbf8d8b1dfc1e2139d51db9b3c4d',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
